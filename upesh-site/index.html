@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upesh | Building in Public — AI × Systems × Story</title>
+  <meta name="description" content="Projects, services, resources, and a public build log. Authentic, fast, and useful." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Upesh</a>
+    <button id="navToggle" class="icon-btn" aria-label="Toggle menu">☰</button>
+    <nav id="nav" class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#resources">Resources</a>
+      <a href="#journal">Journal</a>
+      <a href="#contact" class="cta">Contact</a>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>AI builder, system fixer, story-driven operator.</h1>
+        <p>Shipping in public. Helping humans <span class="underline">work from anywhere</span> with automation, clear UX, and ruthless practicality.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">See Projects</a>
+          <a href="#contact" class="btn ghost">Book a 15-min call</a>
+        </div>
+        <div class="socials">
+          <a href="https://x.com/upeshinmars" target="_blank" rel="noopener">X/Twitter</a>
+          <a href="https://www.instagram.com/hotbpoison" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@techinahurry-A" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://github.com/Upesh0070" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://massive-industry-848.notion.site/Website-Structure-212983e5ce75804688b6e1b68f4d681e?pvs=143" target="_blank" rel="noopener">Notion</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <!-- Put your video at ./assets/video/hero.mp4, poster at ./assets/img/hero-poster.jpg -->
+        <video id="heroVideo" class="media" autoplay muted playsinline loop poster="./assets/img/hero-poster.jpg">
+          <source src="./assets/video/hero.mp4" type="video/mp4" />
+        </video>
+        <button id="videoToggle" class="icon-fab" aria-label="Pause video">⏸</button>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m Upesh — Tech support engineer turned AI systems builder. I blend
+        <strong>Python</strong>, <strong>automation</strong>, and <strong>storytelling</strong> to turn chaos into shipped outcomes.
+        Current focus: AI assistants for Nepali users, healthcare decision tools, and creator-grade workflows.
+      </p>
+      <ul class="pill-grid">
+        <li>Python</li><li>HTML/CSS/JS</li><li>Prompt Engineering</li><li>Automation</li>
+        <li>UX Writing</li><li>CareTech</li><li>First-Principles Ops</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <a class="link" href="https://github.com/Upesh0070" target="_blank" rel="noopener">More on GitHub →</a>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-media ratio-16x9">
+            <img src="./assets/img/careconnect.jpg" alt="CareConnect app preview" />
+          </div>
+          <div class="card-body">
+            <h3>CareConnect (Pilot)</h3>
+            <p>AI-assisted caregiving matcher for Siliguri: intake → triage → caregiver matching → health tracking.</p>
+            <div class="tags"><span>Next up:</span> <em>partner hospitals</em>, <em>BP/sugar dashboards</em>, <em>pricing</em></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media ratio-16x9">
+            <img src="./assets/img/nepali-gpt.jpg" alt="Nepali GPT assistant" />
+          </div>
+          <div class="card-body">
+            <h3>Nepali-custom GPTs</h3>
+            <p>Context-aware assistants for education & finance. Goal: practical Nepali UX with voice + low-data mode.</p>
+            <div class="tags"><span>Status:</span> Alpha prompts, dataset curation</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media ratio-16x9">
+            <img src="./assets/img/creator-tools.jpg" alt="Creator automation toolkit" />
+          </div>
+          <div class="card-body">
+            <h3>Creator Ops Toolkit</h3>
+            <p>One-click pipeline: script → shots → edit cues → captions → thumbnails → posts.</p>
+            <div class="tags"><span>Stack:</span> Python, ffmpeg, LLMs</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>Services (Beta)</h2>
+      <div class="cards">
+        <article class="card small">
+          <h3>Automation Sprint</h3>
+          <p>Map your messy workflow, ship one automation that saves hours/week. 1–2 weeks.</p>
+          <ul class="bullets"><li>Ops map</li><li>Prototype</li><li>Docs + Loom</li></ul>
+        </article>
+        <article class="card small">
+          <h3>AI Assistant Setup</h3>
+          <p>Custom GPTs for a specific job (support, sales, education) with guardrails and prompts.</p>
+          <ul class="bullets"><li>Use-cases</li><li>Prompts</li><li>Handover</li></ul>
+        </article>
+        <article class="card small">
+          <h3>Creator Engine</h3>
+          <p>Repeatable content system: scripts, titles, cutdowns, posting calendar.</p>
+          <ul class="bullets"><li>Templates</li><li>Hooks</li><li>Analytics</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESOURCES -->
+    <section id="resources" class="section">
+      <h2>Resources</h2>
+      <div class="list">
+        <a href="#!" class="list-item">Prompt Engineering Cheat Sheet (WIP)</a>
+        <a href="#!" class="list-item">AI Learning Roadmap (2025)</a>
+        <a href="#!" class="list-item">Public Build Log</a>
+      </div>
+    </section>
+
+    <!-- JOURNAL -->
+    <section id="journal" class="section">
+      <h2>Build Journal</h2>
+      <div id="journalList" class="journal"></div>
+      <form id="journalForm" class="journal-form">
+        <input id="journalInput" type="text" placeholder="Log a quick win…" maxlength="160" />
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="contactForm" class="contact">
+        <div class="grid">
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <input type="email" id="email" name="email" placeholder="Email" required />
+        </div>
+        <textarea id="message" name="message" rows="5" placeholder="What problem are we solving?" required></textarea>
+        <button class="btn" type="submit">Send</button>
+        <p id="contactStatus" class="muted"></p>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Upesh — Building in Public</span>
+      <a href="#top" class="link">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
